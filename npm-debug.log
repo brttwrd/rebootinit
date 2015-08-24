@@ -1,0 +1,171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\Brett\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-sass' ]
+2 info using npm@2.13.2
+3 info using node@v0.12.4
+4 verbose install initial load of C:\Users\Brett\Desktop\rebootinit\package.json
+5 verbose installManyTop reading scoped package data from C:\Users\Brett\Desktop\rebootinit\node_modules\browser-sync\package.json
+6 verbose installManyTop reading scoped package data from C:\Users\Brett\Desktop\rebootinit\node_modules\gulp\package.json
+7 verbose installManyTop reading scoped package data from C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-autoprefixer\package.json
+8 verbose installManyTop reading scoped package data from C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-jade\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass\package.json
+10 info package.json browser-sync@1.9.2 No license field.
+11 verbose readDependencies loading dependencies from C:\Users\Brett\Desktop\rebootinit\package.json
+12 silly cache add args [ 'gulp-sass', null ]
+13 verbose cache add spec gulp-sass
+14 silly cache add parsed spec { raw: 'gulp-sass',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'gulp-sass',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed gulp-sass@*
+16 verbose addNamed "*" is a valid semver range for gulp-sass
+17 silly addNameRange { name: 'gulp-sass', range: '*', hasData: false }
+18 silly mapToRegistry name gulp-sass
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+22 verbose addNameRange registry:https://registry.npmjs.org/gulp-sass not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/gulp-sass
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 1:13:08 AM
+26 verbose request id b92e2c6f2d11f99f
+27 verbose etag "3CKUSSGNDZDFTI7YKVPR5ASDZ"
+28 http request GET https://registry.npmjs.org/gulp-sass
+29 http 304 https://registry.npmjs.org/gulp-sass
+30 silly get cb [ 304,
+30 silly get   { date: 'Sun, 23 Aug 2015 05:13:09 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     'cache-control': 'max-age=60',
+30 silly get     etag: '"3CKUSSGNDZDFTI7YKVPR5ASDZ"',
+30 silly get     age: '0',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-iad2129-IAD',
+30 silly get     'x-cache': 'HIT',
+30 silly get     'x-cache-hits': '1',
+30 silly get     'x-timer': 'S1440306789.575681,VS0,VE90',
+30 silly get     vary: 'Accept' } ]
+31 verbose etag https://registry.npmjs.org/gulp-sass from cache
+32 verbose get saving gulp-sass to C:\Users\Brett\AppData\Roaming\npm-cache\registry.npmjs.org\gulp-sass\.cache.json
+33 silly addNameRange number 2 { name: 'gulp-sass', range: '*', hasData: true }
+34 silly addNameRange versions [ 'gulp-sass',
+34 silly addNameRange   [ '0.1.0',
+34 silly addNameRange     '0.2.1',
+34 silly addNameRange     '0.2.2',
+34 silly addNameRange     '0.2.3',
+34 silly addNameRange     '0.3.0',
+34 silly addNameRange     '0.4.0',
+34 silly addNameRange     '0.4.1',
+34 silly addNameRange     '0.5.0',
+34 silly addNameRange     '0.5.1',
+34 silly addNameRange     '0.5.2',
+34 silly addNameRange     '0.6.0',
+34 silly addNameRange     '0.7.0',
+34 silly addNameRange     '0.7.1',
+34 silly addNameRange     '0.7.2',
+34 silly addNameRange     '0.7.3',
+34 silly addNameRange     '1.0.0',
+34 silly addNameRange     '1.1.0',
+34 silly addNameRange     '1.2.0',
+34 silly addNameRange     '1.2.1',
+34 silly addNameRange     '1.2.2',
+34 silly addNameRange     '1.2.3',
+34 silly addNameRange     '1.2.4',
+34 silly addNameRange     '1.3.0',
+34 silly addNameRange     '1.3.1',
+34 silly addNameRange     '1.3.2',
+34 silly addNameRange     '1.3.3',
+34 silly addNameRange     '2.0.0-alpha.1',
+34 silly addNameRange     '2.0.0',
+34 silly addNameRange     '2.0.2',
+34 silly addNameRange     '2.0.3',
+34 silly addNameRange     '2.0.4' ] ]
+35 silly addNamed gulp-sass@2.0.4
+36 verbose addNamed "2.0.4" is a plain semver version for gulp-sass
+37 silly cache afterAdd gulp-sass@2.0.4
+38 verbose afterAdd C:\Users\Brett\AppData\Roaming\npm-cache\gulp-sass\2.0.4\package\package.json not in flight; writing
+39 verbose afterAdd C:\Users\Brett\AppData\Roaming\npm-cache\gulp-sass\2.0.4\package\package.json written
+40 silly install resolved [ { name: 'gulp-sass',
+40 silly install resolved     version: '2.0.4',
+40 silly install resolved     description: 'Gulp plugin for sass',
+40 silly install resolved     main: 'index.js',
+40 silly install resolved     scripts: { test: 'mocha test' },
+40 silly install resolved     repository: { type: 'git', url: 'git://github.com/dlmanning/gulp-sass.git' },
+40 silly install resolved     keywords: [ 'gulpplugin', 'sass', 'gulp' ],
+40 silly install resolved     author: { name: 'David Manning' },
+40 silly install resolved     license: 'MIT',
+40 silly install resolved     bugs: { url: 'https://github.com/dlmanning/gulp-sass/issues' },
+40 silly install resolved     dependencies:
+40 silly install resolved      { 'gulp-util': '^3.0',
+40 silly install resolved        'node-sass': '^3.0.0',
+40 silly install resolved        'object-assign': '^2.0.0',
+40 silly install resolved        through2: '^0.6.3',
+40 silly install resolved        'vinyl-sourcemaps-apply': '~0.1.1' },
+40 silly install resolved     devDependencies:
+40 silly install resolved      { 'autoprefixer-core': '^5.1.11',
+40 silly install resolved        eslint: '^0.17.1',
+40 silly install resolved        globule: '^0.2.0',
+40 silly install resolved        gulp: '^3.8.11',
+40 silly install resolved        'gulp-postcss': '^5.1.6',
+40 silly install resolved        'gulp-sourcemaps': '^1.5.2',
+40 silly install resolved        'gulp-tap': '^0.1.3',
+40 silly install resolved        mocha: '^2.2.1',
+40 silly install resolved        should: '^5.2.0' },
+40 silly install resolved     gitHead: '8f5e91f4427161f17415edfd709085205ee47608',
+40 silly install resolved     homepage: 'https://github.com/dlmanning/gulp-sass#readme',
+40 silly install resolved     _id: 'gulp-sass@2.0.4',
+40 silly install resolved     _shasum: '9703de980b9ebf2a418271e0c5e3e4ed9adf76ba',
+40 silly install resolved     _from: 'gulp-sass@*',
+40 silly install resolved     _npmVersion: '2.11.2',
+40 silly install resolved     _nodeVersion: '0.12.5',
+40 silly install resolved     _npmUser: { name: 'snugug', email: 'sam@snug.ug' },
+40 silly install resolved     dist:
+40 silly install resolved      { shasum: '9703de980b9ebf2a418271e0c5e3e4ed9adf76ba',
+40 silly install resolved        tarball: 'http://registry.npmjs.org/gulp-sass/-/gulp-sass-2.0.4.tgz' },
+40 silly install resolved     maintainers: [ [Object], [Object] ],
+40 silly install resolved     directories: {},
+40 silly install resolved     _resolved: 'https://registry.npmjs.org/gulp-sass/-/gulp-sass-2.0.4.tgz',
+40 silly install resolved     readme: 'ERROR: No README data found!' } ]
+41 info install gulp-sass@2.0.4 into C:\Users\Brett\Desktop\rebootinit
+42 info installOne gulp-sass@2.0.4
+43 verbose installOne of gulp-sass to C:\Users\Brett\Desktop\rebootinit not in flight; installing
+44 verbose lock using C:\Users\Brett\AppData\Roaming\npm-cache\_locks\gulp-sass-b7125ac4b57e7fd9.lock for C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass
+45 silly install write writing gulp-sass 2.0.4 to C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass
+46 verbose unbuild node_modules\gulp-sass
+47 silly gentlyRm C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass is being purged from base C:\Users\Brett\Desktop\rebootinit
+48 verbose gentlyRm don't care about contents; nuking C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass
+49 silly vacuum-fs Error: EPERM, lstat 'C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass'
+49 silly vacuum-fs     at Error (native)
+50 verbose unlock done using C:\Users\Brett\AppData\Roaming\npm-cache\_locks\gulp-sass-b7125ac4b57e7fd9.lock for C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass
+51 verbose stack Error: EPERM, lstat 'C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass'
+51 verbose stack     at Error (native)
+52 verbose cwd C:\Users\Brett\Desktop\rebootinit
+53 error Windows_NT 6.3.9600
+54 error argv "node" "C:\\Users\\Brett\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-sass"
+55 error node v0.12.4
+56 error npm  v2.13.2
+57 error path C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass
+58 error code EPERM
+59 error errno -4048
+60 error Error: EPERM, lstat 'C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass'
+60 error     at Error (native)
+60 error  { [Error: EPERM, lstat 'C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass']
+60 error   errno: -4048,
+60 error   code: 'EPERM',
+60 error   path: 'C:\\Users\\Brett\\Desktop\\rebootinit\\node_modules\\gulp-sass' }
+61 error Please try running this command again as root/Administrator.
+62 verbose exit [ -4048, true ]
+63 verbose unbuild node_modules\gulp-sass
+64 silly gentlyRm C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass is being purged from base C:\Users\Brett\Desktop\rebootinit
+65 verbose gentlyRm don't care about contents; nuking C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass
+66 silly vacuum-fs Error: EPERM, lstat 'C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass'
+66 silly vacuum-fs     at Error (native)
+67 error error rolling back Error: EPERM, lstat 'C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass'
+67 error error rolling back     at Error (native)
+67 error error rolling back  { [Error: EPERM, lstat 'C:\Users\Brett\Desktop\rebootinit\node_modules\gulp-sass']
+67 error error rolling back   errno: -4048,
+67 error error rolling back   code: 'EPERM',
+67 error error rolling back   path: 'C:\\Users\\Brett\\Desktop\\rebootinit\\node_modules\\gulp-sass' }
